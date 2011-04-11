@@ -16,7 +16,7 @@ class AppTest {
     def testJavaObj() = assertEquals(new JavaObj().doStuff(), 33)
 
     @Test
-    def testUseJavaObj() = assertEquals(new UseJavaObj().use(), 33)
+    def testUseJavaObj() = assertEquals(new UseJavaObj().use(), 66)
 }
 
 
